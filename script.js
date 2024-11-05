@@ -39,13 +39,13 @@ inputsave.addEventListener("click",function(event){
    inputdate.value='';
    inputtext.value='';
    labtitled.style.top="22%"
-   labtitled.style.left="10%"
+   labtitled.style.left="11%"
 
    labnote.style.bottom="24%"
    labnote.style.left="11%"
 
    labdated.style.top="46%"
-   labdated.style.left="50%"
+   labdated.style.left="11%"
 })
 
 function deletebook(event){
