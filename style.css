@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar{
+    background-color: aqua;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    top: 0%;
+}
+h1{
+    padding: 5px;
+    padding-left: 20px;
+    padding-top: 3px;
+    font-size: 50px;
+}
+.container{
+    margin-top: 75px;
+    padding: 10px;
+}
+.text-container h2{
+
+    font-size: 35px;
+    color: aqua;
+}
+.text-container h4{
+    
+    font-size: 25px;
+
+}
+
+.text-container{
+    padding: 15px;
+    width: 25%;
+    height: 40%;
+   margin: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: top;
+   
+    box-shadow: 0 4px 8px 0 aqua, 0 6px 20px 0 black;}
+.text-container p{
+    margin-top: 10px;
+}
+.text-container h3{
+    margin-top: 10px;
+}
+.conbtn{
+    background-color: aqua;
+    color: black;
+    border-radius:20px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-top: 10px;
+   border: none;
+   font-size: 15px;
+}
+.btn{
+    background-color: aqua;
+    color: black;
+    font-size: 60px;
+    border: none;
+    width: 90px;
+    height: 90px;
+    border-radius:100%;
+    position: fixed;
+    right: 30px;
+    bottom: 10%;
+}
+.overlay{
+    height: 100%;
+    width:100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 1;
+    display: none;
+}
+.input-container{
+    width: 400px;
+    height: 400px;
+    z-index: 2;
+    background-color: aqua;
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    padding: 20px;
+    color: black;
+    border-radius: 30px;
+    display: none;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 aqua;
+
+}
+.input-container h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-left: 0;
+  
+ 
+}
+.input-container input{
+   display: block;
+   width: 90%;
+    padding: 15px;
+    background-color: transparent;
+    margin-bottom: 50px;
+    font-size: 20px ;
+    border: none;
+    border-bottom: solid 1px black;
+}
+    
+
+.input-text{
+    display: block;
+    width: 90%;
+     padding: 15px;
+     background-color: transparent;
+     padding: 15px;
+     font-size: 20px ;
+     height: 40px;
+     border-bottom: solid 1px black;
+     margin-top: 40px;
+}
+.input-save{
+    background-color:black;
+    color: aqua;
+    border-radius:20px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-top: 10px;
+   border: none;
+   position: absolute;
+   left: 6%;
+   bottom: 4%;
+   font-size: 20px;
+}
+.input-cancle{
+    background-color:black;
+    color: aqua;
+    border-radius:20px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-top: 10px;
+   border: none;
+   position: absolute;
+   right: 6%;
+   bottom: 4%;
+   font-size: 20px;
+}
+.labtitle{
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    font-size: 25px;
+    transition: 0.8s;
+    opacity: 0.7;
+}
+.labnote{
+    position: absolute;
+    bottom: 22%;
+    left: 10%;
+    font-size: 25px;
+    transition: 0.8s;
+    opacity: 0.7;
+}
+.lab-date{
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    transition: 0.8s;
+
+}
+@media screen and (max-width:425px){
+    .btn{
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+    }
+    .text-container{
+        width: auto;
+        height: auto;
+        text-align: center;
+        
+    }
+    .input-container{
+        width: auto;
+        height: 400px;
+        z-index: 2;
+        background-color: aqua;
+        position: fixed;
+        top: 10%;
+        right: 8%;
+        padding: 20px;
+        color: black;
+        border-radius: 30px;
+        display: none;
+        text-align: left;
+    }
+    .overlay{
+        height: 100%;
+        position: fixed;
+    }
+    .labnote{
+        bottom: 24%;
+        left: 11%;
+    }
+    .navbar{
+        width: 100%;
+        margin:0;
+        padding: 0;
+        text-align: center;
+        height: 55px;
+    }
+   .container{
+    align-items: center;
+    text-align: center;
+   }
+   h1{
+    font-size: 40px;
+  
+   }
+   .lab-date{
+    top: 46%;
+    left: 50%;
+   }
+
+}

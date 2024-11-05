@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textpop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+   <div class="navbar">
+     <h1><i class="fa-solid fa-book"></i> Text Pop </h1>
+   </div>
+    <div  class="container">
+        <div class="text-container">
+            <h2> TITLE</h2>
+            <h3>RESERVE YOUR DATE</h3>
+            <p>WRITE A SHORT NOTE</p>
+            <button class="conbtn" onclick=" deletebook(event)">delete</button>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <form action="">
+    <div class="input-container">
+       <h2 class="addnote">ADD NOTE  <i class="fa-regular fa-clipboard"></i> </h2>
+        <label class="labtitle">Title</label>
+        <input id="title" class="input-title"  onkeyup="mousor()" type="text">
+
+        <label style="font-size:25px; opacity: 0.7;" class="lab-date">Date</label>
+        <input id="author" class="input-date" onclick="labdate()" placeholder="Date" type="date">
+        <label class="labnote" >Short note</label>
+        <textarea id="text" class="input-text" placeholder="" onkeyup="shortnote()"  id=""></textarea>
+        <button id="savebtn" class="input-save" > <i class="fa-solid fa-check"></i></button>
+        <button  class="input-cancle"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+</form>
+
+<button class="btn"><i class="fa-solid fa-plus"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
