@@ -182,7 +182,7 @@ h1{
 }
 .lab-date{
     position: absolute;
-    left: 10%;
+    left: 40%;
     top: 45%;
     transition: 0.8s;
     opacity:0.4;
@@ -196,7 +196,7 @@ h1{
         font-size: 30px;
     }
     .text-container{
-        width: auto;
+        width: 270px;
         height: auto;
         text-align: center;
         
